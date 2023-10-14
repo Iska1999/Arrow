@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="RegFile_ALU_Controller_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="RegFile_ALU_Controller_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="30166666fs"></ZoomStartTime>
+      <ZoomEndTime time="227966667fs"></ZoomEndTime>
+      <Cursor1Time time="75000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="300"></NameColumnWidth>
+      <ValueColumnWidth column_width="280"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/clk_in">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/incoming_inst">
+      <obj_property name="ElementShortName">incoming_inst</obj_property>
+      <obj_property name="ObjectShortName">incoming_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/newInst_sig">
+      <obj_property name="ElementShortName">newInst_sig</obj_property>
+      <obj_property name="ObjectShortName">newInst_sig</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/i_load">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">i_load</obj_property>
+      <obj_property name="ObjectShortName">i_load</obj_property>
+      <obj_property name="label">i_load (L0)</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(1)\/OffsetGens/i_load">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">i_load</obj_property>
+      <obj_property name="ObjectShortName">i_load</obj_property>
+      <obj_property name="label">i_load (L1)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/newInst_out">
+      <obj_property name="ElementShortName">newInst_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">newInst_out[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/vect_inst">
+      <obj_property name="ElementShortName">vect_inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">vect_inst[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/WriteEn">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">WriteEn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteEn[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">WriteEn[1:0] (controller)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/WriteEn">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">WriteEn[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteEn[1:0]</obj_property>
+      <obj_property name="label">WriteEn[1:0] (RF)</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/RegFile/BankA/WriteData">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      <obj_property name="label">WriteData[31:0] (L0)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/RegFile/BankA/registers">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">registers[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:15][31:0]</obj_property>
+      <obj_property name="label">registers[0:15][31:0] (L0)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/RegFile/\BANK_GEN(1)\/Banks/WriteData">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      <obj_property name="label">WriteData[31:0] (L1)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/RegFile/\BANK_GEN(1)\/Banks/registers">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">registers[0:15][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:15][31:0]</obj_property>
+      <obj_property name="label">registers[0:15][31:0] (L1)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/i_mask">
+      <obj_property name="ElementShortName">i_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/NUM_ELEMENTS">
+      <obj_property name="ElementShortName">NUM_ELEMENTS</obj_property>
+      <obj_property name="ObjectShortName">NUM_ELEMENTS</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/current_mask">
+      <obj_property name="ElementShortName">current_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/i_vsew">
+      <obj_property name="ElementShortName">i_vsew[2:0]</obj_property>
+      <obj_property name="ObjectShortName">i_vsew[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/i_vlmul">
+      <obj_property name="ElementShortName">i_vlmul[2:0]</obj_property>
+      <obj_property name="ObjectShortName">i_vlmul[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/i_vl">
+      <obj_property name="ElementShortName">i_vl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_vl[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/i_vstart">
+      <obj_property name="ElementShortName">i_vstart[4:0]</obj_property>
+      <obj_property name="ObjectShortName">i_vstart[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/o_offset">
+      <obj_property name="ElementShortName">o_offset[4:0]</obj_property>
+      <obj_property name="ObjectShortName">o_offset[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/w_offset_in">
+      <obj_property name="ElementShortName">w_offset_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">w_offset_in[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/o_done">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+      <obj_property name="label">o_done (L0)</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(1)\/OffsetGens/o_done">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_done</obj_property>
+      <obj_property name="ObjectShortName">o_done</obj_property>
+      <obj_property name="label">o_done (L1)</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/ALU/done_i">
+      <obj_property name="ElementShortName">done_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">done_i[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/ALU/s_done">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">s_done[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_done[1:0]</obj_property>
+      <obj_property name="label">s_done[1:0] (P_EX)</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/ALU/done_o">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">done_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">done_o[1:0]</obj_property>
+      <obj_property name="label">done_o[1:0] (P_WB, to cont)</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/RF/\OffsetGen_GEN(0)\/OffsetGens/current_mask">
+      <obj_property name="ElementShortName">current_mask[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_mask[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/CU/cu_sew">
+      <obj_property name="ElementShortName">cu_sew[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cu_sew[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/funct6_sig">
+      <obj_property name="ElementShortName">funct6_sig[11:0]</obj_property>
+      <obj_property name="ObjectShortName">funct6_sig[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/RegSel_sig">
+      <obj_property name="ElementShortName">RegSel_sig[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RegSel_sig[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/Xdata_in">
+      <obj_property name="ElementShortName">Xdata_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Xdata_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/Xdata_sig">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Xdata_sig[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Xdata_sig[63:0]</obj_property>
+      <obj_property name="label">Xdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/rd_sig">
+      <obj_property name="ElementShortName">rd_sig[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_sig[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/lane_idx">
+      <obj_property name="ElementShortName">lane_idx</obj_property>
+      <obj_property name="ObjectShortName">lane_idx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/CONT/busy_lanes">
+      <obj_property name="ElementShortName">busy_lanes[1:0]</obj_property>
+      <obj_property name="ObjectShortName">busy_lanes[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/s_result">
+      <obj_property name="ElementShortName">s_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/ALU/a_result">
+      <obj_property name="ElementShortName">a_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">a_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/ALU/s_result">
+      <obj_property name="ElementShortName">s_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_result[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/RegFile_ALU_Controller_tb/UUT/REG_ALU/ALU/mv_result">
+      <obj_property name="ElementShortName">mv_result[63:0]</obj_property>
+      <obj_property name="ObjectShortName">mv_result[63:0]</obj_property>
+   </wvobject>
+</wave_config>

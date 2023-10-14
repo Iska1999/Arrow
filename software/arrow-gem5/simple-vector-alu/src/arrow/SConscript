@@ -1,0 +1,5 @@
+Import('*')
+
+SimObject('SimpleALU.py')
+Source('simple_alu.cc')
+DebugFlag('SimpleALU')
